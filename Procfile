@@ -1,1 +1,1 @@
-web: python echo-example.py
+worker: python echo-example.py

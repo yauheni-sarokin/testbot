@@ -6,6 +6,9 @@ import telebot
 
 #print(Back.GREEN)
 
+print("started")
+sys.stdout.flush()
+
 bot =  telebot.TeleBot("759571628:AAFtmCaDudbElJMu9COkXhTMjUFSc5wXDtY")
 
 @bot.message_handler(content_types=['text'])

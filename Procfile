@@ -1,1 +1,1 @@
-web: python webhook_flask_heroku_echo.py
+worker: python webhook_flask_heroku_echo.py

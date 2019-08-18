@@ -1,1 +1,1 @@
-wev: python webhook_flask_heroku_echo.py
+web: python3 webhook_flask_heroku_echo.py

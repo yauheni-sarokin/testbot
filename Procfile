@@ -1,1 +1,1 @@
-web: python bottg.py
+web: python echo-example.py

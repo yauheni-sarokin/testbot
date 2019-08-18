@@ -1,10 +1,10 @@
 import telebot
 
-from colorama import init
-from colorama import Fore, Back, Style
-init()
+#from colorama import init
+#from colorama import Fore, Back, Style
+#init()
 
-print(Back.GREEN)
+#print(Back.GREEN)
 
 bot =  telebot.TeleBot("759571628:AAFtmCaDudbElJMu9COkXhTMjUFSc5wXDtY")
 
@@ -19,6 +19,6 @@ def send_welcome(message):
 #		print("wow you know it: " + id)
 		bot.send_message(message.chat.id, "wow you know it, your id is : " + str(message.chat.id))
 
-	print(message.text)
+#	print(message.text)
 
 bot.polling( none_stop = True )
